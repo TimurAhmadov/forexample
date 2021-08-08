@@ -1,7 +1,7 @@
-name: on-commit-action
+name: on-push-action
 
 on:
-  [commit_comment]:
+  push:
     branches: [master]
 jobs:
   build:
