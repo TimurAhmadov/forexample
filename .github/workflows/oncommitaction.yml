@@ -1,7 +1,7 @@
 name: on-commit-action
 
 on:
-  commit_comment:
+  [commit_comment]:
     branches: [master]
 jobs:
   build:
